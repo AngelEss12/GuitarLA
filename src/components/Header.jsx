@@ -28,6 +28,7 @@ function Header() {
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        {   }
                                         <tr>
                                             <td>
                                                 <img className="img-fluid" src="./public/img/guitarra_02.jpg" alt="imagen guitarra" />
