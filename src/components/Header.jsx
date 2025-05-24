@@ -1,5 +1,5 @@
 
-function Header({ cart }) {
+function Header({ cart, removeFromCart }) {
 
     // State Derived State
     const isEmpty = () => cart.length === 0;
@@ -64,6 +64,7 @@ function Header({ cart }) {
                                                             <button
                                                                 className="btn btn-danger"
                                                                 type="button"
+                                                                onClick={() => removeFromCart()}
                                                             >
                                                                 X
                                                             </button>

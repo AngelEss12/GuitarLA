@@ -23,11 +23,16 @@ function App() {
     }
   }
 
+  function removeFromCart() {
+    console.log("Eliminando...");
+  }
+
   return (
     <>
       
     <Header 
       cart={cart}
+      removeFromCart={removeFromCart}
     />
 
     <main className="container-xl mt-5">
